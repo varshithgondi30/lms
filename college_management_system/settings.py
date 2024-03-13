@@ -29,7 +29,7 @@ SECRET_KEY = 'f2zx8*lb*em*-*b+!&1lpp&$_9q9kmkar+l3x90do@s(+sr&x7'  # Consider us
 DEBUG = True
 
 # ALLOWED_HOSTS = ['smswithdjango.herokuapp.com']
-ALLOWED_HOSTS = ['52.203.42.114']  # Not recommended but useful in dev mode
+ALLOWED_HOSTS = ['13.126.17.66']  # Not recommended but useful in dev mode
 
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
