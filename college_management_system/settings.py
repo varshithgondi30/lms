@@ -31,6 +31,12 @@ DEBUG = True
 # ALLOWED_HOSTS = ['smswithdjango.herokuapp.com']
 ALLOWED_HOSTS = ['13.126.17.66' , 'new.sdplms.xyz']  # Not recommended but useful in dev mode
 
+CORS_ALLOWED_ORIGINS = [
+    'https://new.sdplms.xyz',
+    'https://sdplms.xyz',
+]
+
+
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
 
