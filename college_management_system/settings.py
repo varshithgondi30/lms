@@ -36,6 +36,12 @@ CORS_ALLOWED_ORIGINS = [
     'https://sdplms.xyz',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://sdplms.xyz',
+    'https://new.sdplms.xyz',
+]
+
+
 
 SESSION_COOKIE_SECURE = False
 CSRF_COOKIE_SECURE = False
