@@ -108,7 +108,7 @@ DATABASES = {
         'NAME': 'lms',
         'USER': 'admin',
         'PASSWORD': 'varshith',
-        'HOST': 'database-1.clyuo2c2kgbz.us-east-1.rds.amazonaws.com',   # Or your MySQL server address
+        'HOST': 'database-1.cjcu0uec2cye.ap-south-1.rds.amazonaws.com',   # Or your MySQL server address
         'PORT': '3306',        # MySQL default port
     }
 }
