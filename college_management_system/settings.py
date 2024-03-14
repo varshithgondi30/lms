@@ -29,16 +29,16 @@ SECRET_KEY = 'f2zx8*lb*em*-*b+!&1lpp&$_9q9kmkar+l3x90do@s(+sr&x7'  # Consider us
 DEBUG = True
 
 # ALLOWED_HOSTS = ['smswithdjango.herokuapp.com']
-ALLOWED_HOSTS = ['13.126.17.66' , 'new.sdplms.xyz' , 'sdplms.xyz']  # Not recommended but useful in dev mode
+ALLOWED_HOSTS = ['13.126.17.66' , 'cms.sdplms.xyz' , 'sdplms.xyz']  # Not recommended but useful in dev mode
 
 CORS_ALLOWED_ORIGINS = [
-    'https://new.sdplms.xyz',
+    'https://cms.sdplms.xyz',
     'https://sdplms.xyz',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://sdplms.xyz',
-    'https://new.sdplms.xyz',
+    'https://cms.sdplms.xyz',
 ]
 
 
